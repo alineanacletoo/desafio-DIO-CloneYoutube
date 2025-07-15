@@ -1,0 +1,241 @@
+body {
+display: flex;
+width: 1455px;
+height: 1024px;
+position: relative;
+background: #F9F9F9;
+font-family: Roboto, sans-serif;
+}
+
+nav {
+display: flex;
+width: 1455px;
+height: 56px;
+position: relative;
+justify-content: space-between;
+background-color: #FFFFFF;
+align-items: center;
+}
+
+.left {
+width: 175px;
+height: 24px;
+}
+
+#menu {
+width: 24px;
+height: 24px;
+position: absolute;
+top: 16px;
+left: 24px;
+}
+
+#youtube {
+width: 90px;
+height: 20px;
+position: absolute;
+top: 18px;
+left: 80px;
+}
+
+.center {
+width: 440px;
+height: 40px;
+}
+
+#search-bar {
+width: 348px;
+height: 40px;
+position: absolute;
+top: 8px;
+left: 526px;
+background: #FFFFFF;
+}
+
+#search-button {
+width: 57px;
+height: 40px;
+position: absolute;
+top: 8px;
+left: 873px;
+background: #F8F8F8;
+}
+
+#search-icon {
+width: 24px;
+height: 24px;
+position: absolute;
+top: 16px;
+left: 887px;
+}
+
+.right {
+display: flex;
+width: 145px;
+height: 34px;
+gap: 24px;
+align-items: center;
+}
+
+#video,
+#bell,
+#avatar {
+width: 24px;
+height: 24px;
+}
+
+main {
+display: flex;
+flex-direction: column;
+width: 952px;
+height: 825px;
+position: absolute;
+top: 84px;
+left: 75px;
+gap: 16px;
+}
+
+figure {
+margin: 0px;
+}
+
+.titlle-video {
+width: 873px;
+height: 50.2px;
+}
+
+.titlle-video h1 {
+font-size: 20px;
+font-weight: 600;
+line-height: 23.44px;
+}
+
+.video-actions {
+display: flex;
+width: 902px;
+height: 42px;
+gap: 42px;
+align-items: center;
+}
+
+#channel-infos {
+width: 160px;
+height: 42px;
+}
+
+#subscribe-button {
+width: 159px;
+height: 40px;
+border-radius: 2px 0px 0px 0px;
+}
+
+#like-button {
+width: 63px;
+height: 24px;
+}
+
+#deslike-button {
+width: 100px;
+height: 24px;
+}
+
+#share-button {
+width: 115px;
+height: 24px;
+}
+
+#dowload-button {
+width: 95px;
+height: 24px;
+}
+
+.views-date {
+width: 391px;
+height: 29.5px;
+}
+
+.views-date p {
+font-size: 14px;
+font-weight: 600;
+line-height: 16.41px;
+}
+
+.video-description {
+width: 510px;
+height: 94px;
+}
+
+.video-description p {
+font-size: 14px;
+font-weight: 400;
+line-height: 16.41px;
+color: #515151;
+}
+
+aside {
+display: flex;
+flex-direction: column;
+width: 160px;
+height: 938px;
+position: absolute;
+top: 84px;
+left: 1052px;
+gap: 16px;
+}
+
+.video {
+display: flex;
+position: relative;
+}
+
+.video img {
+width: 160px;
+height: 90px;
+}
+
+.infos {
+position: absolute;
+width: 196px;
+height: 90px;
+left: 176px;
+}
+
+.infos h1 {
+width: 196px;
+height: 32px;
+position: relative;
+font-size: 14px;
+font-weight: 600;
+line-height: 16.41px;
+margin: 0px;
+}
+
+.infos h2 {
+width: 196px;
+height: 14px;
+position: relative;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.06px;
+color: #515151;
+}
+
+.infos p {
+width: 196px;
+height: 28px;
+position: relative;
+font-size: 12px;
+font-weight: 400;
+line-height: 14.06px;
+white-space: pre-line;
+color: #515151;
+margin: 0px
+}
+
+.infos-2 h1 {
+height: 15px;
+}
+
+.infos-7 h1{
+height: 15px;
+}
